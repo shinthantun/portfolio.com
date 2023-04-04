@@ -280,12 +280,21 @@
   </footer>
 
 <script>
-  var typed = new Typed('.element', {
-    strings: ["a UI/UX Designer", "an Artist"],
-    typeSpeed: 50,
-    backSpeed: 50,
-    loop: true
-  });
+  var typed = new Typed(".element", {
+  strings: ["Shin Thant Tun", "a UIUX Designer","a Developer"],
+  smartBackspace: true,
+   typeSpeed: 100,
+   backSpeed: 100,
+   loop: true,
+  loopCount: Infinity,
+  startDelay: 1000
+});
+
+
+$('a').smoothScroll({
+
+  speed:2000,
+});
 </script>
 
 
